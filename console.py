@@ -16,8 +16,9 @@ author_repository.save(author2)
 
 author_repository.select_all()
 
-book_1 = Book("Strange beasts of China", "Fantasy" author1)
+book_1 = Book("Strange beasts of China", "Fantasy", author1)
 book_repository.save(book_1)
 
 book_2 = Book("Love in the big city", "Fiction", author2)
 book_repository.save(book_2)
+
